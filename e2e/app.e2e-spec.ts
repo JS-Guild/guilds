@@ -1,10 +1,10 @@
-import { GuildsPage } from './app.po';
+import { TgActivitiesPage } from './app.po';
 
-describe('guilds App', function() {
-  let page: GuildsPage;
+describe('tg-activities App', function() {
+  let page: TgActivitiesPage;
 
   beforeEach(() => {
-    page = new GuildsPage();
+    page = new TgActivitiesPage();
   });
 
   it('should display message saying app works', () => {
